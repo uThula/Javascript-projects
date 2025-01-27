@@ -1,0 +1,58 @@
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+ .game{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100px;
+}  
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button{
+    height:100px ;
+    width: 100px;
+    border-radius: 50%;
+    
+    
+}
+body{
+    background-color: aqua;
+}
+
+.button1 , .button2 , .button3 {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button1 {
+    background-image: url(rock.jpg);
+    background-size: 98px;
+}
+.button2 {
+    background-image: url(paper.png);
+    background-size: 80px;
+
+}
+
+.button3 {
+    background-image: url(scissors.png);
+    background-size: 145px;
+}
+
